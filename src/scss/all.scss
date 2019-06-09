@@ -1,0 +1,18 @@
+@import '../../node_modules/bootstrap/scss/bootstrap';
+.box {
+  background-color: red;
+  &:hover {
+    background-color: #00cc99;
+  }
+}
+.box2{
+  background-color: #00cc99;
+}
+
+.bg{
+  width: 300px;
+  height: 200px;
+  background-image: url('../image/nathan-dumlao-1555008-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+}
